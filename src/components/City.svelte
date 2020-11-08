@@ -6,6 +6,13 @@
     export let state: string;
     export let url: string;
     export let webcams: IWebcam[];
+
+    let showFullScreen: boolean = false;
+
+    function toggleFullScreen() {
+        showFullScreen = !showFullScreen;
+        console.log(showFullScreen);
+    }
 </script>
 
 <style>
@@ -14,13 +21,28 @@
     }
 
     .city-container {
-        border-bottom: 3px #ccc solid;
+        border-radius: 16px;
+
+        background-color: #333333;
         margin-bottom: 30px;
         margin-top: 30px;
+        padding: 16px;
+    }
+
+    .city-container.full-screen {
+        background-color: #222;
+    }
+
+    .city-container a {
+        color: #fff;
     }
 
     .city-container h3 {
         text-align: center;
+    }
+    .city-container p {
+        text-align: center;
+        color: #cccccc;
     }
 
     .webcam-image-container {
@@ -28,6 +50,7 @@
         height: auto;
         overflow-x: scroll;
         max-width: 100%;
+        border-radius: 16px;
         /* margin-bottom: 30px; */
     }
 
@@ -67,9 +90,13 @@
     }
 </style>
 
-<div class="city-container" {id}>
+<div
+    class="city-container "
+    class:full-screen={showFullScreen === true}
+    {id}
+    on:click={toggleFullScreen}>
     <h3><a href={url} target="_blank">{name}</a></h3>
-    <div>{country} - {state}</div>
+    <p>{country} - {state}</p>
     <div class="webcam-image-container">
         <img src={webcams[0].url} class="webcam-image" alt={name} />
     </div>

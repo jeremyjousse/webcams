@@ -1,6 +1,7 @@
 {
     "conventionalCommits.scopes": [
         "github-actions",
-        "layout"
+        "layout",
+        "data"
     ]
 }

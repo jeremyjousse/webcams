@@ -21,7 +21,7 @@ const cities: ICity[] = [
         webcams: [
             {
                 name: "Le lac",
-                url: "http://www.trinum.com/ibox/ftpcam/mega_annecy.jpg"
+                url: "https://www.trinum.com/ibox/ftpcam/mega_annecy.jpg"
             }
         ]
     },
@@ -30,11 +30,11 @@ const cities: ICity[] = [
         name: "Autrans",
         country: "France",
         state: "Isère",
-        url: "http://autrans-meaudre.com/",
+        url: "https://autrans-meaudre.com/",
         webcams: [
             {
                 name: "Le tremplin",
-                url: "http://www.trinum.com/ibox/ftpcam/mega_meaudre_front.jpg"
+                url: "https://www.trinum.com/ibox/ftpcam/mega_meaudre_front.jpg"
             }
         ]
     },
@@ -47,7 +47,7 @@ const cities: ICity[] = [
         webcams: [
             {
                 name: "Les hauts plateaux",
-                url: "http://www.neos360.com/villard_de_lans/pre_des_preys/img/panojavascript/nojava/pano_PV.jpg"
+                url: "https://srv06.trinum.com/ibox/ftpcam/mega_correncon_plateau.jpg"
             }
         ]
     },
@@ -60,7 +60,7 @@ const cities: ICity[] = [
         webcams: [
             {
                 name: "Secteur Platières",
-                url: "http://www.trinum.com/ibox/grand-massif/images/flaine-1600/grand-massif_flaine-16002.jpg"
+                url: "https://www.trinum.com/ibox/grand-massif/images/flaine-1600/grand-massif_flaine-16002.jpg"
             }
         ]
     },
@@ -82,7 +82,7 @@ const cities: ICity[] = [
         name: "Isola 2000",
         country: "France",
         state: "Alpes-Maritimes",
-        url: "http://www.isola2000.com/",
+        url: "https://www.isola2000.com/",
         webcams: [
             {
                 name: "Snow Park",
@@ -95,11 +95,11 @@ const cities: ICity[] = [
         name: "Lake Louise",
         country: "Canada",
         state: "Alberta",
-        url: "http://www.skilouise.com/",
+        url: "https://www.skilouise.com/",
         webcams: [
             {
                 name: "Ptarmigan Webcam",
-                url: "http://cams.skilouise.com/cam3.jpg"
+                url: "https://cams.skilouise.com/cam3.jpg"
             }
         ]
     },
@@ -108,7 +108,7 @@ const cities: ICity[] = [
         name: "Megève",
         country: "France",
         state: "Savoie",
-        url: "http://megeve.com/",
+        url: "https://megeve.com/",
         webcams: [
             {
                 name: "Rochebrune",
@@ -147,7 +147,7 @@ const cities: ICity[] = [
         name: "Saint Veran",
         country: "France",
         state: "Hautes-Alpes",
-        url: "http://www.saintveran.com",
+        url: "https://www.saintveran.com",
         webcams: [
             {
                 name: "Village",
@@ -186,7 +186,7 @@ const cities: ICity[] = [
         name: "Tignes",
         country: "France",
         state: "Savoie",
-        url: "http://www.tignes.net/",
+        url: "https://www.tignes.net/",
         webcams: [
             {
                 name: "Le Lac",
