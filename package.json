@@ -4,7 +4,7 @@
   "scripts": {
     "build": "rollup -c",
     "dev": "rollup -c -w",
-    "lint": "eslint \"{,!(node_modules|public)/**/}*.{js,svelte}\"",
+    "lint": "eslint \"{,!(node_modules|public)/**/}*.{js,ts,svelte}\"",
     "start": "sirv public",
     "validate": "svelte-check"
   },
@@ -13,6 +13,8 @@
     "@rollup/plugin-node-resolve": "^8.0.0",
     "@rollup/plugin-typescript": "^6.0.0",
     "@tsconfig/svelte": "^1.0.0",
+    "@typescript-eslint/eslint-plugin": "^4.6.1",
+    "@typescript-eslint/parser": "^4.6.1",
     "eslint": "^7.13.0",
     "eslint-plugin-svelte3": "^2.7.3",
     "fast-check": "^2.6.0",
