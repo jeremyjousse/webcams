@@ -21,7 +21,7 @@
 </style>
 
 <main>
- {#each cities as city (city.name)}
+ {#each cities as city (city.id)}
   <City {...city} />
  {/each}
 </main>

@@ -1,6 +1,7 @@
 export interface IWebcam {
     name: string,
     url: string,
+    type?: string
 }
 interface ICity {
     id: string,
@@ -85,8 +86,8 @@ const cities: ICity[] = [
     url: 'https://www.isola2000.com/',
     webcams: [
       {
-        name: 'Snow Park',
-        url: 'https://www.trinum.com/ibox/ftpcam/isola-2000_station.jpg'
+        name: 'Tête Cabane',
+        url: 'https://www.trinum.com/ibox/ftpcam/mega_isola-2000_tete-cabane.jpg'
       }
     ]
   },
@@ -104,6 +105,20 @@ const cities: ICity[] = [
     ]
   },
   {
+    id: 'marseille',
+    name: 'Marseille',
+    country: 'France',
+    state: 'Bouche du Rhon',
+    url: 'https://www.marseille.fr/nos-webcams/',
+    webcams: [
+      {
+        name: 'Notre-Dame de la Garde',
+        url: 'https://pv.viewsurf.com/742/Marseille-Notre-Dame-de-la-Garde-1?i=NDU5NDp1bmRlZmluZWQ',
+        type: 'viewsurf'
+      }
+    ]
+  },
+  {
     id: 'megeve',
     name: 'Megève',
     country: 'France',
@@ -113,6 +128,20 @@ const cities: ICity[] = [
       {
         name: 'Rochebrune',
         url: 'https://srv06.trinum.com/ibox/ftpcam/mega_arbois.jpg'
+      }
+    ]
+  },
+  {
+    id: 'menuires',
+    name: 'Les Menuires',
+    country: 'France',
+    state: 'Savoie',
+    url: 'https://lesmenuires.com/fr/webcams',
+    webcams: [
+      {
+        name: 'La croisette',
+        url: 'https://www.skaping.com/lesmenuires/croisette',
+        type: 'skaping'
       }
     ]
   },
