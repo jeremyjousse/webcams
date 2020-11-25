@@ -40,6 +40,34 @@ const cities: ICity[] = [
     ]
   },
   {
+    id: 'bessan',
+    name: 'Bessan',
+    country: 'France',
+    state: 'Savoie',
+    url: 'https://www.haute-maurienne-vanoise.com/hiver/bessans/webcam/',
+    webcams: [
+      {
+        name: 'Bessan',
+        url: 'https://bit.ly/2DWLnKa',
+        type: 'viewsurf'
+      }
+    ]
+  },
+  {
+    id: 'chamrousse',
+    name: 'Chamrousse',
+    country: 'France',
+    state: 'Isère',
+    url: 'https://www.chamrousse.com/webcams.html',
+    webcams: [
+      {
+        name: 'Les crêtes',
+        url: 'https://www.skaping.com/chamrousse/les-cretes',
+        type: 'viewsurf'
+      }
+    ]
+  },
+  {
     id: 'corrancon',
     name: 'Corrançon',
     country: 'France',
@@ -70,11 +98,12 @@ const cities: ICity[] = [
     name: 'Le Grand-Bornand',
     country: 'France',
     state: 'Savoie',
-    url: 'https://www.legrandbornand.com/',
+    url: 'https://www.legrandbornand.com/webcams.html',
     webcams: [
       {
         name: 'Lormay',
-        url: 'https://www.trinum.com/ibox/ftpcam/mega_gb_village.jpg'
+        url: 'https://www.skaping.com/le-grand-bornand/chinaillon',
+        type: 'viewsurf'
       }
     ]
   },
