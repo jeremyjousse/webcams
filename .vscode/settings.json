@@ -3,6 +3,7 @@
         "github-actions",
         "layout",
         "data",
-        "doc"
+        "doc",
+        "webcams"
     ]
 }

@@ -101,7 +101,7 @@
  <p>{country} - {state}</p>
  <div class="webcam-image-container">
    {#if ['skaping', 'viewsurf'].includes(webcams[0].type)}
-    <iframe title={webcams[0].name} style="width:100%;height:100%;min-height: 400px;top:0;left:0;right:0;bottom:0;border:none;" allowfullscreen allow="autoplay; fullscreen" scrolling="no" src={webcams[0].url}></iframe>
+    <iframe title={webcams[0].name} style="width:100%;height:100%;min-height: 400px;top:0;left:0;right:0;bottom:0;border:none;" allowfullscreen allow="autoplay; fullscreen" src={webcams[0].url}></iframe>
    {:else}
     <img src={webcams[0].url} class="webcam-image" alt={name} />
    {/if}

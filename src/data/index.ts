@@ -121,6 +121,20 @@ const cities: ICity[] = [
     ]
   },
   {
+    id: 'lac-blan',
+    name: 'La lac blanc',
+    country: 'France',
+    state: 'Haut-Rhin',
+    url: 'https://www.lac-blanc.com/',
+    webcams: [
+      {
+        name: '1200',
+        url: 'https://m.webcam-hd.com/lac-blanc/lac-blanc-1200',
+        type: 'viewsurf'
+      }
+    ]
+  },
+  {
     id: 'lake-louise',
     name: 'Lake Louise',
     country: 'Canada',
