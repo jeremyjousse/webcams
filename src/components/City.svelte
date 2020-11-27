@@ -72,13 +72,13 @@
   }
 
   .webcam-image-container {
-   max-height: 200px;
+   max-height: 400px;
    max-width: 100%;
   }
 
   .webcam-image {
-   max-height: 200px;
-   min-height: 200px;
+   max-height: 400px;
+   min-height: 400px;
    margin: 0;
    padding: 0;
    /* max-width: 100%; */
