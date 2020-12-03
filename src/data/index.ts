@@ -189,6 +189,19 @@ const cities: ICity[] = [
     ]
   },
   {
+    id: 'metabief',
+    name: 'Metabief',
+    country: 'France',
+    state: 'Doubs',
+    url: 'https://www.tourisme-metabief.com/webcams.html',
+    webcams: [
+      {
+        name: 'Station',
+        url: 'https://www.trinum.com/ibox/ftpcam/mega_orex_metabief_front-de-neige.jpg',
+      }
+    ]
+  },
+  {
     id: 'les-rousses',
     name: 'Les Rousses',
     country: 'France',
