@@ -254,6 +254,20 @@ const cities: ICity[] = [
     ]
   },
   {
+    id: 'serre-chevalier',
+    name: 'Serre Chevalier',
+    country: 'France',
+    state: 'Hautes-Alpes',
+    url: 'https://www.serre-chevalier.com/fr/webcam-serre-chevalier-briancon-direct',
+    webcams: [
+      {
+        name: 'Monetier',
+        url: 'https://www.skaping.com/serrechevalier/monetier',
+        type: 'skaping'
+      }
+    ]
+  },
+  {
     id: 'soelden',
     name: 'Soelden',
     country: 'Austria',
