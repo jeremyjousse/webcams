@@ -241,6 +241,19 @@ const cities: ICity[] = [
     ]
   },
   {
+    id: 'saisies',
+    name: 'Les Saisies',
+    country: 'France',
+    state: 'Savoie',
+    url: 'https://www.lessaisies.com/webcams-les-saisies-hauteluce-bisanne1500-espace-diamant.html',
+    webcams: [
+      {
+        name: 'Espace Erwin Eckl',
+        url: 'https://www.trinum.com/ibox/ftpcam/mega_les_saisies_espace-erwineckl.jpg'
+      }
+    ]
+  },
+  {
     id: 'soelden',
     name: 'Soelden',
     country: 'Austria',
