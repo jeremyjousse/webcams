@@ -202,6 +202,19 @@ const cities: ICity[] = [
     ]
   },
   {
+    id: 'praz-de-lys',
+    name: 'Praz de Lys',
+    country: 'France',
+    state: 'Haute-Savoie',
+    url: 'https://www.prazdelys-sommand.com/explorer/la-station/le-domaine-skiable/webcams/',
+    webcams: [
+      {
+        name: 'Chevaly',
+        url: 'https://www.trinum.com/ibox/ftpcam/praz_lys_sommand_chevally.jpg',
+      }
+    ]
+  },
+  {
     id: 'les-rousses',
     name: 'Les Rousses',
     country: 'France',
