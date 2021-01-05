@@ -1,6 +1,7 @@
 <script lang="typescript">
  import { cities } from './data/index'
  import City from './components/City.svelte'
+ const filteredCities = cities.filter(city => city.webcams.length > 0 && city.webcams[0].type == undefined)
 </script>
 
 <style>
@@ -21,7 +22,7 @@
 </style>
 
 <main>
- {#each cities as city (city.id)}
+ {#each filteredCities as city (city.id)}
   <City {...city} />
  {/each}
 </main>
