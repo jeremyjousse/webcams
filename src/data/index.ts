@@ -61,6 +61,10 @@ const cities: ICity[] = [
     url: 'https://www.chamrousse.com/webcams.html',
     webcams: [
       {
+        name: 'Chamrousse 1800',
+        url: 'https://www.chamrousse.com/templates/SITE/cache/min-PRESTATAIRE-WEBCAMS-VUGRENOBLEVERCORS-webcam-chamrousse.jpg',
+      },
+      {
         name: 'Les crêtes',
         url: 'https://www.skaping.com/chamrousse/les-cretes',
         type: 'viewsurf'
@@ -101,9 +105,8 @@ const cities: ICity[] = [
     url: 'https://www.legrandbornand.com/webcams.html',
     webcams: [
       {
-        name: 'Lormay',
-        url: 'https://www.skaping.com/le-grand-bornand/chinaillon',
-        type: 'viewsurf'
+        name: 'Chinaillon',
+        url: 'https://www.legrandbornand.com/templates/2018/cache/min-PRESTATAIRE-WEBCAMS-VILLAGE-gb_village.jpg',
       }
     ]
   },
@@ -129,8 +132,7 @@ const cities: ICity[] = [
     webcams: [
       {
         name: '1200',
-        url: 'https://m.webcam-hd.com/lac-blanc/lac-blanc-1200',
-        type: 'viewsurf'
+        url: 'https://srv07.trinum.com/ibox/ftpcam/mega_lac-blanc_espace-debutant.jpg',
       }
     ]
   },
@@ -183,7 +185,7 @@ const cities: ICity[] = [
     webcams: [
       {
         name: 'La croisette',
-        url: 'https://www.skaping.com/lesmenuires/croisette',
+        url: 'https://www.skaping.com/lesmenuires/croisette', // -> every 10 min https://data.skaping.com/menuires_croisette/2021/01/14/17-22.jpg
         type: 'skaping'
       }
     ]
